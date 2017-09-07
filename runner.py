@@ -6,7 +6,7 @@ import sys
 if len(sys.argv) > 1:
     _board = Board(sys.argv[1])
 else:
-    _board = Board('levels/01.karelmap')
+    _board = Board('levels/03.karelmap')
 
 def _refresh(callback):
     def inner():
@@ -60,9 +60,6 @@ def run():
     """
     Delete pass and write your own code here!
     """
-    move()
-    turn_left()
-    pick_beeper()
     pass
 
 execute(run)
